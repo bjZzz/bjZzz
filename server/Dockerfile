@@ -3,8 +3,10 @@ FROM eclipse-temurin:8-jdk AS builder
 WORKDIR /build
 COPY . .
 
-RUN chmod +x mvnw \
-    && ./mvnw clean package -DskipTests -B -q
+# .mvn/maven.config 会加载 Windows 本地仓库路径 (D:\.m2)，在 Linux 容器内导致依赖无法正确解析
+RUN rm -f .mvn/maven.config \
+    && chmod +x mvnw \
+    && ./mvnw clean package -DskipTests -B -q -s .mvn/settings.docker.xml
 
 FROM eclipse-temurin:8-jre-jammy
 
