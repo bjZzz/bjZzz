@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "timestamp": 1780035983087,
+  "projectRoot": "d:\\workSpace\\nanda\\server",
+  "entries": [
+    {
+      "path": "nanda-boot\\target\\classes\\com\\nanda\\boot\\config\\MybatisPlusConfig.class",
+      "mtime": 1779883367555.9158,
+      "size": 1278
+    },
+    {
+      "path": "nanda-boot\\target\\classes\\com\\nanda\\boot\\config\\Knife4jConfig.class",
+      "mtime": 1779933799372.4026,
+      "size": 1985
+    },
+    {
+      "path": "nanda-boot\\target\\classes\\com\\nanda\\boot\\config\\NandaPropertiesConfig.class",
+      "mtime": 1779934049781.1843,
+      "size": 571
+    },
+    {
+      "path": "nanda-ingestion\\target\\classes\\com\\nanda\\ingestion\\adapter\\DataSourceConfig.class",
+      "mtime": 1779934439717.6558,
+      "size": 4509
+    },
+    {
+      "path": "nanda-boot\\target\\classes\\com\\nanda\\boot\\config\\MiddlewareConnectionConfig.class",
+      "mtime": 1779934488997.0515,
+      "size": 3568
+    },
+    {
+      "path": "nanda-boot\\target\\classes\\com\\nanda\\boot\\config\\RabbitMqListenerConfig.class",
+      "mtime": 1779934492423.736,
+      "size": 1851
+    },
+    {
+      "path": "nanda-integration\\target\\classes\\com\\nanda\\integration\\config\\IntegrationModuleConfig.class",
+      "mtime": 1780022789901.122,
+      "size": 449
+    },
+    {
+      "path": "nanda-analytics\\target\\classes\\com\\nanda\\analytics\\config\\ElasticsearchConfig.class",
+      "mtime": 1780024162587.717,
+      "size": 2042
+    },
+    {
+      "path": "nanda-boot\\target\\classes\\com\\nanda\\boot\\mq\\RabbitMqConfig.class",
+      "mtime": 1780024174760.9546,
+      "size": 3720
+    },
+    {
+      "path": "nanda-platform\\target\\classes\\com\\nanda\\platform\\config\\PlatformSecurityConfig.class",
+      "mtime": 1780035952092.9658,
+      "size": 4300
+    },
+    {
+      "path": "nanda-ingestion\\target\\classes\\com\\nanda\\ingestion\\config\\IngestionModuleConfig.class",
+      "mtime": 1780035955892.3042,
+      "size": 439
+    },
+    {
+      "path": "nanda-asset\\target\\classes\\com\\nanda\\asset\\config\\AssetModuleConfig.class",
+      "mtime": 1780035964796.0752,
+      "size": 419
+    },
+    {
+      "path": "nanda-governance\\target\\classes\\com\\nanda\\governance\\config\\GovernanceModuleConfig.class",
+      "mtime": 1780035960675.3354,
+      "size": 444
+    },
+    {
+      "path": "nanda-research\\target\\classes\\com\\nanda\\research\\config\\ResearchModuleConfig.class",
+      "mtime": 1780035970663.8755,
+      "size": 434
+    },
+    {
+      "path": "nanda-integration\\target\\classes\\com\\nanda\\integration\\domain\\entity\\IntEndpointConfig.class",
+      "mtime": 1780035968159.1086,
+      "size": 6511
+    },
+    {
+      "path": "nanda-analytics\\target\\classes\\com\\nanda\\analytics\\config\\AnalyticsModuleConfig.class",
+      "mtime": 1780035973394.165,
+      "size": 439
+    }
+  ]
+}

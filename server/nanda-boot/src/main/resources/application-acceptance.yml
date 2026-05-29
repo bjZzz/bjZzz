@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: ${ACCEPTANCE_DB_URL:jdbc:mysql://localhost:3306/nanda?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false}
+    username: ${DB_USER:nanda}
+    password: ${DB_PASS:nanda123}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+logging:
+  level:
+    com.nanda: INFO
+    org.springframework.security: WARN
+
+nanda:
+  mq:
+    enabled: false
+  redis:
+    enabled: false
+  elasticsearch:
+    enabled: false
+  sandbox:
+    enabled: false

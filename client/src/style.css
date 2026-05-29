@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+:root {
+  --el-color-primary: #2563eb;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f8fafc;
+}

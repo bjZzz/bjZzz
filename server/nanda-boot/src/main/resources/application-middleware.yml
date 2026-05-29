@@ -1,0 +1,20 @@
+spring:
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+  rabbitmq:
+    host: ${MQ_HOST:localhost}
+    port: ${MQ_PORT:5672}
+    username: ${MQ_USER:guest}
+    password: ${MQ_PASS:guest}
+  elasticsearch:
+    rest:
+      uris: ${ES_URIS:http://localhost:9200}
+
+nanda:
+  mq:
+    enabled: true
+  redis:
+    enabled: true
+  elasticsearch:
+    enabled: true
